@@ -1,0 +1,103 @@
+@import url("/components/basic.css");
+@import url(/components/avatar/avatar.css);
+.badge-icon {
+  font-size: var(--lg-size);
+  color: var(--cta);
+}
+.badge {
+  position: relative;
+  width: fit-content;
+}
+.badge-number {
+  position: absolute;
+  background-color: var(--accent7);
+  width: var(--sm-size);
+  height: var(--sm-size);
+  border-radius: 50%;
+  top: -5px;
+  right: -10px;
+  font-size: var(--sm-size);
+  font-weight: var(--bold);
+  color: var(--primary-color);
+}
+.large-badge-number {
+  position: absolute;
+  background-color: var(--accent7);
+  width: var(--sm-size);
+  height: var(--sm-size);
+  border-radius: 20%;
+  top: -5px;
+  right: -10px;
+  font-size: var(--xs-size);
+  font-weight: var(--bold);
+  color: var(--primary-color);
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.badge-large {
+  position: absolute;
+  background-color: var(--accent7);
+  width: var(--md-size);
+  height: var(--md-size);
+  border-radius: 50%;
+  top: -5px;
+  right: -10px;
+  font-size: var(--sm-size);
+  font-weight: var(--bold);
+  color: var(--primary-color);
+}
+.text {
+  font-size: var(--md-size);
+  color: var(--accent4);
+}
+.btn {
+  background-color: var(--cta);
+  border: none;
+  border-radius: 5px;
+  padding: var(--sm-size);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.status {
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  width: var(--xs-size);
+  height: var(--xs-size);
+}
+.avatar-badge {
+  position: relative;
+  width: fit-content;
+}
+.status {
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+}
+.online {
+  background-color: var(--accent8);
+}
+.offline {
+  background-color: var(--secondary-color);
+}
+.busy {
+  background-color: var(--accent5);
+}
+.idle {
+  background-color: var(--accent3);
+}
+.badge-label-large {
+  position: absolute;
+  background-color: var(--accent7);
+  width: var(--lg-size);
+  height: var(--lg-size);
+  border-radius: 50%;
+  top: -5px;
+  right: -10px;
+  font-size: var(--sm-size);
+  font-weight: var(--regular);
+  color: var(--primary-color);
+}

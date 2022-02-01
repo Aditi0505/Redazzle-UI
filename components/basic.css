@@ -1,3 +1,4 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 :root {
   /* colors */
   --primary-color: #fefefe;
@@ -8,6 +9,9 @@
   --accent3: #c47625;
   --accent4: #c42573;
   --accent5: #db4241;
+  --accent6: #25c3c4;
+  --accent7: #7625c4;
+  --accent8: #74c425;
   --disable: #fceeee;
   --hover: #d62929;
 

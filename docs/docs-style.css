@@ -1,8 +1,10 @@
 @import url("../style.css");
 @import url("../components/avatar/avatar.css");
+@import url("/components/badge/badge.css");
 body {
   position: relative;
   height: 100vh;
+  width: 100vw;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -13,10 +15,10 @@ body {
   align-items: center;
   border-right: 1px solid var(--accent2);
   border-bottom: 1px solid var(--accent2);
-  width: fit-content;
   position: fixed;
   top: 60px;
   height: 90vh;
+  padding-top: var(--xs-size);
 }
 .sidebar-title {
   text-align: left;
@@ -50,6 +52,7 @@ body {
 .main-container {
   display: flex;
   height: 100%;
+  padding: var(--md-size);
 }
 .docs-container {
   margin-top: 60px;
@@ -61,22 +64,32 @@ body {
   gap: var(--md-size);
   height: 100%;
 }
+
 .avatar-desc {
   font-family: var(--body-font);
   font-size: var(--sm-size);
   color: var(--accent1);
   font-weight: var(--regular);
+  width: 100%;
 }
-.avatar-docs {
+.docs {
   display: flex;
   flex-direction: column;
   gap: var(--md-size);
+  width: 100%;
 }
-.avatar-example {
+.avatar-example,
+.badge-icon-example,
+.badge-avatar-example,
+.badge-button-example,
+.badge-label-example {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--accent3);
+  border: 1px solid var(--accent2);
   padding: var(--sm-size);
   gap: var(--md-size);
+}
+.docs:target {
+  scroll-margin-top: 72px;
 }
