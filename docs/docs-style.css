@@ -1,5 +1,5 @@
 @import url("../style.css");
-
+@import url("../components/avatar/avatar.css");
 .container {
   display: flex;
   flex-direction: column;
@@ -32,10 +32,42 @@
 .item-link {
   color: var(--cta);
   font-size: var(--md-size);
+  font-family: var(--body-font);
+  font-weight: var(--light);
 }
 
 .items:hover,
 .items:hover > .item-link {
   background-color: var(--hover);
   color: var(--primary-color);
+}
+.main-container {
+  display: flex;
+}
+.docs-container {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--md-size);
+}
+.avatar-desc {
+  font-family: var(--body-font);
+  font-size: var(--sm-size);
+  color: var(--accent1);
+  font-weight: var(--regular);
+}
+.avatar-docs {
+  display: flex;
+  flex-direction: column;
+  gap: var(--md-size);
+}
+.avatar-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--accent3);
+  padding: var(--sm-size);
+  gap: var(--md-size);
 }

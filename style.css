@@ -83,10 +83,12 @@ h3 {
 h4 {
   font-size: var(--sm-size);
   line-height: var(--lg-size);
+  font-family: var(--heading-font);
 }
 h5 {
   font-size: var(--xs-size);
   line-height: var(--sm-size);
+  font-family: var(--heading-font);
 }
 
 /* landing page */

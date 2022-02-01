@@ -1,0 +1,33 @@
+:root {
+  /* colors */
+  --primary-color: #fefefe;
+  --secondary-color: #525252;
+  --cta: #c42625;
+  --accent1: #08060d;
+  --accent2: #c5c5c5;
+  --accent3: #c47625;
+  --accent4: #c42573;
+  --accent5: #db4241;
+  --disable: #fceeee;
+  --hover: #d62929;
+
+  /* font sizes */
+  --xxxl-size: 64px;
+  --xxl-size: 48px;
+  --xl-size: 40px;
+  --lg-size: 32px;
+  --md-size: 24px;
+  --sm-size: 16px;
+  --xs-size: 8px;
+
+  /* font weight */
+  --light: 300;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
+  --bolder: 900;
+
+  /* fonts */
+  --body-font: "Libre Baskerville", serif;
+  --heading-font: "Libre Franklin", sans-serif;
+}
