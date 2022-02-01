@@ -23,7 +23,7 @@
   color: var(--accent1);
   font-weight: var(--bolder);
   font-family: var(--body-font);
-  font-size: var(--md-size);
+  font-size: var(--sm-size);
 }
 .avatar-letter {
   display: flex;

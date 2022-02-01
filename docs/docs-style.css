@@ -1,5 +1,11 @@
 @import url("../style.css");
 @import url("../components/avatar/avatar.css");
+body {
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -8,6 +14,8 @@
   border-right: 1px solid var(--accent2);
   border-bottom: 1px solid var(--accent2);
   width: fit-content;
+  position: fixed;
+  top: 60px;
   height: 90vh;
 }
 .sidebar-title {
@@ -22,8 +30,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: auto;
-  overflow-x: hidden;
   text-align: left;
 }
 .items {
@@ -43,14 +49,17 @@
 }
 .main-container {
   display: flex;
+  height: 100%;
 }
 .docs-container {
-  margin-left: 50px;
+  margin-top: 60px;
+  margin-left: 250px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   gap: var(--md-size);
+  height: 100%;
 }
 .avatar-desc {
   font-family: var(--body-font);
