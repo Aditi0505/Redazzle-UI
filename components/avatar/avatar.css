@@ -1,0 +1,32 @@
+@import url("/components/basic.css");
+.avatar-xs {
+  width: var(--lg-size);
+  height: var(--lg-size);
+}
+.avatar-sm {
+  width: var(--xl-size);
+  height: var(--xl-size);
+}
+.avatar-md {
+  width: var(--xxl-size);
+  height: var(--xxl-size);
+}
+.avatar-lg {
+  width: var(--xxxl-size);
+  height: var(--xxxl-size);
+}
+.avatar {
+  border-radius: 50%;
+}
+.avatar-text {
+  background-color: var(--accent-pink);
+  color: var(--accent-black);
+  font-weight: var(--bolder);
+  font-family: var(--body-font);
+  font-size: var(--sm-size);
+}
+.avatar-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

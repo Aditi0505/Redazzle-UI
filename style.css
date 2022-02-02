@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@300;400;600;700;900&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+:root {
+  /* colors */
+  --primary-color: #fefefe;
+  --secondary-color: #525252;
+  --cta: #c42625;
+  --accent1: #08060d;
+  --accent2: #c5c5c5;
+  --disable: #fceeee;
+  --hover: #d62929;
+
+  /* font sizes */
+  --xxxl-size: 64px;
+  --xxl-size: 48px;
+  --xl-size: 40px;
+  --lg-size: 32px;
+  --md-size: 24px;
+  --sm-size: 16px;
+  --xs-size: 8px;
+
+  /* font weight */
+  --light: 300;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
+  --bolder: 900;
+
+  /* fonts */
+  --body-font: "Libre Baskerville", serif;
+  --heading-font: "Libre Franklin", sans-serif;
+}
+
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.light-mode {
+  --primary-color: #fefefe;
+  --secondary-color: #525252;
+  --cta: #c42625;
+  --accent1: #08060d;
+  --accent2: #c5c5c5;
+  --disable: #fceeee;
+  --hover: #d62929;
+}
+.dark-mode {
+  --primary-color: #08060d;
+  --secondary-color: #c5c5c5;
+  --cta: #c42625;
+  --accent1: #fefefe;
+  --accent2: #525252;
+  --disable: #fceeee;
+  --hover: #d62929;
+}
+body {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  position: relative;
+}
+/* headings */
+h1 {
+  font-size: var(--xxl-size);
+  line-height: var(--xxxl-size);
+  font-family: var(--heading-font);
+  font-weight: var(--bold);
+}
+h2 {
+  font-size: var(--lg-size);
+  line-height: var(--xxl-size);
+  font-family: var(--heading-font);
+}
+h3 {
+  font-size: var(--md-size);
+  line-height: var(--xl-size);
+  font-family: var(--heading-font);
+}
+h4 {
+  font-size: var(--sm-size);
+  line-height: var(--lg-size);
+  font-family: var(--heading-font);
+}
+h5 {
+  font-size: var(--xs-size);
+  line-height: var(--sm-size);
+  font-family: var(--heading-font);
+}
+
+/* landing page */
+.icon,
+.doc-link {
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  font-weight: var(--regular);
+  font-size: var(--md-size);
+}
+.navigation {
+  display: flex;
+  background-color: var(--secondary-color);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: var(--sm-size) var(--xxl-size) var(--sm-size) var(--xxl-size);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.logo {
+  margin-right: var(--md-size);
+}
+.icons > li {
+  margin: 0px var(--sm-size);
+}
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.btn-off {
+  border: none;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+/* Landing page Main contents */
+
+.outer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: var(--xl-size);
+  background-color: var(--primary-color);
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  justify-content: space-evenly;
+  background-color: var(--primary-color);
+}
+.desc,
+.title,
+.actions {
+  width: 100%;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.hero {
+  width: 545px;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cta-install {
+  border: 1px solid var(--cta);
+  padding: var(--sm-size);
+  border-radius: 5px;
+  color: var(--cta);
+  font-family: var(--body-font);
+  font-weight: var(--regular);
+}
+.cta-doc {
+  padding: var(--sm-size);
+  background-color: var(--cta);
+  color: var(--primary-color);
+  border-radius: 5px;
+  font-family: var(--body-font);
+  font-weight: var(--regular);
+}
+.desc {
+  font-size: var(--lg-size);
+  line-height: var(--xl-size);
+  font-family: var(--body-font);
+  font-weight: var(--regular);
+  color: var(--secondary-color);
+}
+.cta-doc:hover {
+  background-color: var(--hover);
+}
+.cta-install:hover {
+  background-color: var(--hover);
+  color: var(--primary-color);
+}
+.title {
+  color: var(--accent1);
+}
+
+.fas {
+  font-size: var(--md-size);
+}
+.icon:hover,
+.doc-link:hover {
+  color: var(--hover);
+}
+.iframe-display {
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}

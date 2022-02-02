@@ -1,1 +1,1 @@
-# Redazzle-UI
+# RedazzleUI
