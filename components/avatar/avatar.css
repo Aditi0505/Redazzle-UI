@@ -19,8 +19,8 @@
   border-radius: 50%;
 }
 .avatar-text {
-  background-color: var(--accent5);
-  color: var(--accent1);
+  background-color: var(--accent-pink);
+  color: var(--accent-black);
   font-weight: var(--bolder);
   font-family: var(--body-font);
   font-size: var(--sm-size);

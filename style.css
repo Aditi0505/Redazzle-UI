@@ -216,3 +216,10 @@ h5 {
 .doc-link:hover {
   color: var(--hover);
 }
+.iframe-display {
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 10px;
+}

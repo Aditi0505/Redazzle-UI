@@ -10,7 +10,6 @@
 }
 .badge-number {
   position: absolute;
-  background-color: var(--accent7);
   width: var(--sm-size);
   height: var(--sm-size);
   border-radius: 50%;
@@ -18,11 +17,9 @@
   right: -10px;
   font-size: var(--sm-size);
   font-weight: var(--bold);
-  color: var(--primary-color);
 }
 .large-badge-number {
   position: absolute;
-  background-color: var(--accent7);
   width: var(--sm-size);
   height: var(--sm-size);
   border-radius: 20%;
@@ -30,7 +27,6 @@
   right: -10px;
   font-size: var(--xs-size);
   font-weight: var(--bold);
-  color: var(--primary-color);
 }
 .display-flex {
   display: flex;
@@ -39,7 +35,6 @@
 }
 .badge-large {
   position: absolute;
-  background-color: var(--accent7);
   width: var(--md-size);
   height: var(--md-size);
   border-radius: 50%;
@@ -47,11 +42,10 @@
   right: -10px;
   font-size: var(--sm-size);
   font-weight: var(--bold);
-  color: var(--primary-color);
 }
 .text {
   font-size: var(--md-size);
-  color: var(--accent4);
+  color: var(--accent-pink);
 }
 .btn {
   background-color: var(--cta);
@@ -78,20 +72,19 @@
   right: 7px;
 }
 .online {
-  background-color: var(--accent8);
+  background-color: var(--accent-green);
 }
 .offline {
   background-color: var(--secondary-color);
 }
 .busy {
-  background-color: var(--accent5);
+  background-color: var(--accent-red);
 }
 .idle {
-  background-color: var(--accent3);
+  background-color: var(--accent-orange);
 }
 .badge-label-large {
   position: absolute;
-  background-color: var(--accent7);
   width: var(--lg-size);
   height: var(--lg-size);
   border-radius: 50%;
@@ -99,5 +92,8 @@
   right: -10px;
   font-size: var(--sm-size);
   font-weight: var(--regular);
+}
+.badge-display {
+  background-color: var(--accent-purple);
   color: var(--primary-color);
 }

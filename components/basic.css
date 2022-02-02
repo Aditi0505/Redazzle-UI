@@ -4,14 +4,14 @@
   --primary-color: #fefefe;
   --secondary-color: #525252;
   --cta: #c42625;
-  --accent1: #08060d;
-  --accent2: #c5c5c5;
-  --accent3: #c47625;
-  --accent4: #c42573;
-  --accent5: #db4241;
-  --accent6: #25c3c4;
-  --accent7: #7625c4;
-  --accent8: #74c425;
+  --accent-black: #08060d;
+  --accent-gray: #c5c5c5;
+  --accent-orange: #c47625;
+  --accent-pink: #c42573;
+  --accent-red: #db4241;
+  --accent-blue: #25c3c4;
+  --accent-purple: #7625c4;
+  --accent-green: #74c425;
   --disable: #fceeee;
   --hover: #d62929;
 

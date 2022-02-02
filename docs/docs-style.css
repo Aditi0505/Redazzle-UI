@@ -43,7 +43,6 @@ body {
   font-family: var(--body-font);
   font-weight: var(--light);
 }
-
 .items:hover,
 .items:hover > .item-link {
   background-color: var(--hover);
