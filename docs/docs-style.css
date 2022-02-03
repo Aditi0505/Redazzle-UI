@@ -1,6 +1,7 @@
 @import url("../style.css");
 @import url("../components/avatar/avatar.css");
 @import url("/components/badge/badge.css");
+@import url("../components/alert/alert.css");
 body {
   position: relative;
   height: 100vh;
@@ -64,7 +65,7 @@ body {
   height: 100%;
 }
 
-.avatar-desc {
+.desc {
   font-family: var(--body-font);
   font-size: var(--sm-size);
   color: var(--accent1);
@@ -91,4 +92,12 @@ body {
 }
 .docs:target {
   scroll-margin-top: 72px;
+}
+.alert-example {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: var(--xs-size);
+  justify-content: center;
+  align-items: center;
 }

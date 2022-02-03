@@ -1,0 +1,50 @@
+@import url(../basic.css);
+
+.display {
+  display: flex;
+  align-items: center;
+  gap: var(--sm-size);
+  padding: var(--sm-size);
+  max-width: fit-content;
+  border-radius: 5px;
+  font: var(--regular) var(--md-size) var(--body-font);
+}
+.fa-info-circle,
+.fa-check-circle,
+.fa-exclamation-triangle,
+.fa-exclamation-circle {
+  color: var(--primary-color);
+}
+.primary-alert {
+  background-color: var(--accent-purple);
+  color: var(--primary-color);
+}
+.success-alert {
+  background-color: var(--accent-green);
+  color: var(--primary-color);
+}
+.warn-alert {
+  background-color: var(--accent-orange);
+  color: var(--primary-color);
+}
+.error-alert {
+  background-color: var(--accent-red);
+  color: var(--primary-color);
+}
+.info-alert {
+  background-color: var(--accent-blue);
+  color: var(--primary-color);
+}
+.secondary-alert {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.fa-times-circle {
+  color: var(--primary-color);
+}
+.btn-close {
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}

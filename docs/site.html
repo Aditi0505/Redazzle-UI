@@ -52,12 +52,12 @@
       <div class="item-container">
         <div class="item1">
           <div class="items">
-            <a href="#avatar" class="item-link">Avatar</a>
+            <a href="#alert" class="item-link">Alert</a>
           </div>
         </div>
         <div class="item2">
           <div class="items">
-            <a href="" class="item-link">Alert</a>
+            <a href="#avatar" class="item-link">Avatar</a>
           </div>
         </div>
         <div class="item3">
@@ -67,22 +67,22 @@
         </div>
         <div class="item4">
           <div class="items">
-            <a href="" class="item-link">Button</a>
+            <a href="#button" class="item-link">Button</a>
           </div>
         </div>
         <div class="item5">
           <div class="items">
-            <a href="" class="item-link">Card</a>
+            <a href="#card" class="item-link">Card</a>
           </div>
         </div>
         <div class="item6">
           <div class="items">
-            <a href="" class="item-link">Image</a>
+            <a href="#image" class="item-link">Image</a>
           </div>
         </div>
         <div class="item7">
           <div class="items">
-            <a href="" class="item-link">Input</a>
+            <a href="#input" class="item-link">Input</a>
           </div>
         </div>
       </div>
@@ -90,12 +90,92 @@
   </aside>
   <div class="main-container">
     <main class="docs-container">
+      <section class="docs" id="alert">
+        <h1 class="title">Alert</h1>
+        <p class="desc">Alert displays the information according to user actions.</p>
+        <h2 class="title">Examples of Alerts</h2>
+        <p class="desc">Alerts can contain any length of text.</p>
+        <div class="alert-example">
+          <!-- Info Alert -->
+          <div class="info-alert display">
+            <i class="fas fa-info-circle"></i>
+            <span>Example of info alert.</span>
+          </div>
+          <!-- Error Alert -->
+          <div class="error-alert display">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Example of error alert.</span>
+          </div>
+          <!-- Success Alert -->
+          <div class="success-alert display">
+            <i class="fas fa-check-circle"></i>
+            <span>Example of success alert.</span>
+          </div>
+          <!-- Warning Alert -->
+          <div class="warn-alert display">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>Example of warning alert.</span>
+          </div>
+          <!-- Primary Alert -->
+          <div class="primary-alert display">
+            <i class="fas fa-info-circle"></i>
+            <span>Example of primary alert.</span>
+          </div>
+          <!-- Secondary Alert -->
+          <div class="secondary-alert display">
+            <i class="fas fa-info-circle"></i>
+            <span>Example of secondary alert.</span>
+          </div>
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28254%2C254%2C254%2C1%29&t=duotone-dark&wt=none&l=css&width=980&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Info%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522info-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2509%253Cspan%253EExample%2520of%2520info%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Error%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522error-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520error%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Success%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522success-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520success%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Warning%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522warn-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520warning%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Primary%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522primary-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520primary%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Secondary%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522secondary-alert%2520display%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520secondary%2520alert.%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2 class="title">Examples of Alerts with close button</h2>
+        <p class="desc">Alerts can contain any length of text with a close button.
+        </p>
+        <div class="alert-example">
+          <!-- Info Alert -->
+          <div class="info-alert display">
+            <span>Example of info alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+          <!-- Error Alert -->
+          <div class="error-alert display">
+            <span>Example of error alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+          <!-- Success Alert -->
+          <div class="success-alert display">
+            <span>Example of success alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+          <!-- Warning Alert -->
+          <div class="warn-alert display">
+            <span>Example of warning alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+          <div class="primary-alert display">
+            <span>Example of primary alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+          <!-- Secondary Alert -->
+          <div class="secondary-alert display">
+            <span>Example of secondary alert.</span>
+            <button class="btn-close"><i class="fas fa-times-circle"></i></button>
+          </div>
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28254%2C254%2C254%2C1%29&t=duotone-dark&wt=none&l=css&width=980&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520Info%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522info-alert%2520display%2522%253E%250A%2509%253Cspan%253EExample%2520of%2520info%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Error%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522error-alert%2520display%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520error%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Success%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522success-alert%2520display%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520success%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Warning%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522warn-alert%2520display%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520warning%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Primary%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522primary-alert%2520display%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520primary%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%21--%2520Secondary%2520Alert%2520--%253E%250A%253Cdiv%2520class%253D%2522secondary-alert%2520display%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EExample%2520of%2520secondary%2520alert.%253C%252Fspan%253E%250A%2509%253Cbutton%2520class%253D%2522btn-close%2522%253E%250A%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2509%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
       <section class="docs" id="avatar">
         <h1 class="title">Avatar</h1>
-        <p class="avatar-desc">Avatars displays the User's profile picture. It can be used on Navigation Bar, Social
+        <p class="desc">Avatars displays the User's profile picture. It can be used on Navigation Bar, Social
           Media Handles, and Messaging platforms.</p>
         <h2 class="title">Examples of Rounded Image Avatars</h2>
-        <p class="avatar-desc">Rounded Image Avatars are available in four sizes. These sizes are ranging from
+        <p class="desc">Rounded Image Avatars are available in four sizes. These sizes are ranging from
           <strong>Extra
             Small</strong> to <strong>Large</strong>.
         </p>
@@ -110,7 +190,7 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <h2 class="title">Examples of Text Avatars</h2>
-        <p class="avatar-desc">Text Avatars are available in four sizes. We can use Initials here.</p>
+        <p class="desc">Text Avatars are available in four sizes. We can use Initials here.</p>
         <div class="avatar-example">
           <div class="avatar-letter avatar avatar-xs avatar-text">A</div>
           <div class="avatar-letter avatar avatar-sm avatar-text">SS</div>
@@ -124,9 +204,9 @@
       </section>
       <section class="docs" id="badge">
         <h1 class="title">Badge</h1>
-        <p class="avatar-desc">Badges displays the count, label, and status information.</p>
+        <p class="desc">Badges displays the count, label, and status information.</p>
         <h2 class="title">Examples of Badge on icons</h2>
-        <p class="avatar-desc">Icons can contain numbers to show count status.</p>
+        <p class="desc">Icons can contain numbers to show count status.</p>
         <div class="badge-icon-example">
           <div class="badge">
             <i class="badge-icon fas fa-shopping-cart"></i>
@@ -142,7 +222,7 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <h2 class="title">Examples of Badge on Avatars</h2>
-        <p class="avatar-desc">Badges on Avatars can show the activity status of a User. We have different status as
+        <p class="desc">Badges on Avatars can show the activity status of a User. We have different status as
           <strong>Available</strong>, <strong>Busy</strong>, <strong>Idle</strong>, and <strong>Offline</strong>.
         </p>
         <div class="badge-avatar-example">
@@ -172,7 +252,7 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <h2 class="title">Examples of Badge on Button</h2>
-        <p class="avatar-desc">Badges can be placed on button showing count or label.
+        <p class="desc">Badges can be placed on button showing count or label.
         </p>
         <div class="badge-button-example">
           <div class="badge">
@@ -185,7 +265,7 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
         <h2 class="title">Examples of Badge on Text</h2>
-        <p class="avatar-desc">Badges can be placed on Text for showing count or label.
+        <p class="desc">Badges can be placed on Text for showing count or label.
         </p>
         <div class="badge-label-example">
           <div class="badge">
