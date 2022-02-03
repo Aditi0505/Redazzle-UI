@@ -15,8 +15,7 @@
   border-radius: 50%;
   top: -5px;
   right: -10px;
-  font-size: var(--sm-size);
-  font-weight: var(--bold);
+  font: var(--bold) var(--sm-size) var(--body-font);
 }
 .large-badge-number {
   position: absolute;
@@ -25,8 +24,7 @@
   border-radius: 20%;
   top: -5px;
   right: -10px;
-  font-size: var(--xs-size);
-  font-weight: var(--bold);
+  font: var(--bold) var(--xs-size) var(--body-font);
 }
 .display-flex {
   display: flex;
@@ -40,12 +38,11 @@
   border-radius: 50%;
   top: -5px;
   right: -10px;
-  font-size: var(--sm-size);
-  font-weight: var(--bold);
+  font: var(--bold) var(--sm-size) var(--body-font);
 }
 .text {
-  font-size: var(--md-size);
   color: var(--accent-pink);
+  font: var(--bold) var(--md-size) var(--body-font);
 }
 .btn {
   background-color: var(--cta);
@@ -90,8 +87,7 @@
   border-radius: 50%;
   top: -5px;
   right: -10px;
-  font-size: var(--sm-size);
-  font-weight: var(--regular);
+  font: var(--bold) var(--xs-size) var(--body-font);
 }
 .badge-display {
   background-color: var(--accent-purple);

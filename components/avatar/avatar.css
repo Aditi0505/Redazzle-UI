@@ -20,10 +20,8 @@
 }
 .avatar-text {
   background-color: var(--accent-pink);
-  color: var(--accent-black);
-  font-weight: var(--bolder);
-  font-family: var(--body-font);
-  font-size: var(--sm-size);
+  color: var(--primary-color);
+  font: var(--bolder) var(--sm-size) var(--body-font);
 }
 .avatar-letter {
   display: flex;

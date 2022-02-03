@@ -1,0 +1,184 @@
+@import url(../basic.css);
+:root {
+  --accent-light-purple: #fff1ff;
+  --accent-light-gray: #ebebeb;
+  --accent-light-red: #ffdbda;
+  --accent-light-green: #ffffbe;
+  --accent-light-orange: #ffffbe;
+  --accent-light-blue: #f1ffff;
+  --accent-blue-hover: #b2ebf2;
+  --accent-purple-hover: #d1c4e9;
+  --accent-secondary-hover: #cfd8dc;
+  --accent-red-hover: #ffcdd2;
+  --accent-green-hover: #dcedc8;
+  --accent-orange-hover: #ffe0b2;
+  --accent-pink-hover: #f8bbd0;
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font: var(--bold) var(--sm-size) var(--body-font);
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: var(--accent-purple);
+  color: var(--primary-color);
+}
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.btn-error {
+  background-color: var(--accent-red);
+  color: var(--primary-color);
+}
+.btn-success {
+  background-color: var(--accent-green);
+  color: var(--primary-color);
+}
+.btn-warn {
+  background-color: var(--accent-orange);
+  color: var(--primary-color);
+}
+.btn-info {
+  background-color: var(--accent-blue);
+  color: var(--primary-color);
+}
+.btn-outline-primary {
+  color: var(--accent-purple);
+  border: 1px solid var(--accent-purple);
+  background-color: transparent;
+}
+.btn-outline-secondary {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+}
+.btn-outline-error {
+  color: var(--accent-red);
+  border: 1px solid var(--accent-red);
+  background-color: transparent;
+}
+.btn-outline-success {
+  color: var(--accent-green);
+  border: 1px solid var(--accent-green);
+  background-color: transparent;
+}
+.btn-outline-warn {
+  color: var(--accent-orange);
+  border: 1px solid var(--accent-orange);
+  background-color: transparent;
+}
+.btn-outline-info {
+  color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+  background-color: transparent;
+}
+.btn-link {
+  text-decoration: underline;
+  color: var(--accent-pink);
+  background-color: transparent;
+}
+.btn-ghost-primary {
+  color: var(--accent-purple);
+  background-color: var(--accent-light-purple);
+}
+.btn-ghost-secondary {
+  color: var(--secondary-color);
+  background-color: var(--accent-light-gray);
+}
+.btn-ghost-error {
+  color: var(--accent-red);
+  background-color: var(--accent-light-red);
+}
+.btn-ghost-success {
+  color: var(--accent-green);
+  background-color: var(--accent-light-green);
+}
+.btn-ghost-warn {
+  color: var(--accent-orange);
+  background-color: var(--accent-light-orange);
+}
+.btn-ghost-info {
+  color: var(--accent-blue);
+  background-color: var(--accent-light-blue);
+}
+.btn-info:hover,
+.btn-outline-info:hover,
+.btn-ghost-info:hover {
+  background-color: var(--accent-blue-hover);
+}
+.btn-link:hover {
+  background-color: var(--accent-pink-hover);
+  color: var(--primary-color);
+}
+.btn-primary:hover,
+.btn-outline-primary:hover,
+.btn-ghost-primary:hover {
+  background-color: var(--accent-purple-hover);
+}
+.btn-secondary:hover,
+.btn-outline-secondary:hover,
+.btn-ghost-secondary:hover {
+  background-color: var(--accent-secondary-hover);
+}
+.btn-error:hover,
+.btn-outline-error:hover,
+.btn-ghost-error:hover {
+  background-color: var(--accent-red-hover);
+}
+.btn-success:hover,
+.btn-outline-success:hover,
+.btn-ghost-success:hover {
+  background-color: var(--accent-green-hover);
+}
+.btn-warn:hover,
+.btn-outline-warn:hover,
+.btn-ghost-warn:hover {
+  background-color: var(--accent-orange-hover);
+}
+.btn-disabled-error {
+  background-color: var(--accent-red-hover);
+  color: var(--accent-gray);
+}
+.btn-disabled-warn {
+  background-color: var(--accent-orange-hover);
+  color: var(--accent-gray);
+}
+.btn-disabled-success {
+  background-color: var(--accent-green-hover);
+  color: var(--accent-gray);
+}
+.btn-disabled-info {
+  background-color: var(--accent-blue-hover);
+  color: var(--accent-gray);
+}
+.btn-disabled-secondary {
+  background-color: var(--accent-secondary-hover);
+  color: var(--accent-gray);
+}
+.btn-disabled-primary {
+  background-color: var(--accent-purple-hover);
+  color: var(--accent-gray);
+}
+.btn-icon {
+  background-color: transparent;
+  color: var(--cta);
+  font-size: var(--md-size);
+}
+.btn-icon:hover {
+  color: var(--hover);
+}
+.btn-float {
+  background-color: var(--cta);
+  color: var(--primary-color);
+  font-size: var(--md-size);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-float:hover {
+  background-color: var(--hover);
+}
