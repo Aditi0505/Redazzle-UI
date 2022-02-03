@@ -4,10 +4,10 @@
   display: flex;
   align-items: center;
   gap: var(--sm-size);
-  padding: var(--sm-size);
+  padding: var(--xs-size);
   max-width: fit-content;
   border-radius: 5px;
-  font: var(--regular) var(--md-size) var(--body-font);
+  font: var(--regular) var(--sm-size) var(--body-font);
 }
 .fa-info-circle,
 .fa-check-circle,

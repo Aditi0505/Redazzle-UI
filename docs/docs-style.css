@@ -2,6 +2,7 @@
 @import url("../components/avatar/avatar.css");
 @import url("/components/badge/badge.css");
 @import url("../components/alert/alert.css");
+@import url("../components/button/button.css");
 body {
   position: relative;
   height: 100vh;
@@ -82,7 +83,8 @@ body {
 .badge-icon-example,
 .badge-avatar-example,
 .badge-button-example,
-.badge-label-example {
+.badge-label-example,
+.button-example {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,10 +96,11 @@ body {
   scroll-margin-top: 72px;
 }
 .alert-example {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   gap: var(--xs-size);
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--accent2);
+  padding: var(--sm-size);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
