@@ -58,15 +58,13 @@
   display: flex;
   width: var(--xs-size);
   height: var(--xs-size);
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
 }
 .avatar-badge {
   position: relative;
   width: fit-content;
-}
-.status {
-  position: absolute;
-  bottom: 5px;
-  right: 7px;
 }
 .online {
   background-color: var(--accent-green);

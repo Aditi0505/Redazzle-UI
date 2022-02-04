@@ -3,6 +3,7 @@
 @import url("/components/badge/badge.css");
 @import url("../components/alert/alert.css");
 @import url("../components/button/button.css");
+@import url("../components/card/card.css");
 body {
   position: relative;
   height: 100vh;
@@ -41,7 +42,7 @@ body {
 }
 .item-link {
   color: var(--cta);
-  font-size: var(--md-size);
+  font-size: var(--sm-size);
   font-family: var(--body-font);
   font-weight: var(--light);
 }
@@ -58,6 +59,7 @@ body {
 .docs-container {
   margin-top: 60px;
   margin-left: 250px;
+  margin-right: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +86,8 @@ body {
 .badge-avatar-example,
 .badge-button-example,
 .badge-label-example,
-.button-example {
+.button-example,
+.example {
   display: flex;
   justify-content: center;
   align-items: center;

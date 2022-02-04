@@ -1,8 +1,4 @@
 @import url("../basic.css");
-.card-image {
-  width: 286px;
-  height: 180px;
-}
 .card-container,
 .card-container-overlay,
 .text-card-container,
@@ -50,7 +46,7 @@
   align-items: center;
   cursor: pointer;
 }
-.badge {
+.card-badge {
   width: var(--md-size);
   height: var(--md-size);
   border-radius: 50%;
@@ -80,7 +76,7 @@
   text-align: center;
   padding: var(--sm-size);
 }
-.badge-text {
+.card-badge-text {
   background-color: var(--primary-color);
   text-align: center;
   position: absolute;
@@ -90,13 +86,13 @@
   padding: 5px;
   font: var(--bold) var(--sm-size) var(--body-font);
 }
-.btn-close {
+.card-btn-close {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
 }
-.fa-times-circle {
+.close {
   color: var(--cta);
   font-size: var(--sm-size);
 }
