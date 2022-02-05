@@ -3,12 +3,16 @@
 .card-container-overlay,
 .text-card-container,
 .card-container-shadow {
-  width: 286px;
+  width: auto;
+  max-width: 286px;
   height: fit-content;
   display: flex;
   flex-direction: column;
   position: relative;
   border: 1px solid var(--secondary-color);
+}
+.card-inner-container-overlay {
+  width: 100%;
 }
 .card-inner-container {
   display: flex;
@@ -29,6 +33,7 @@
 }
 .img,
 .img-horizontal {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -67,14 +72,18 @@
 .btn-action:hover {
   opacity: 70%;
 }
-.card-title {
+.card-title,
+.card-title-horizontal {
   font: var(--bold) var(--sm-size) var(--body-font);
   text-align: center;
+  color: var(--secondary-color);
 }
-.card-desc {
+.card-desc,
+.card-desc-horizontal {
   font: var(--regular) var(--sm-size) var(--body-font);
   text-align: center;
   padding: var(--sm-size);
+  color: var(--secondary-color);
 }
 .card-badge-text {
   background-color: var(--primary-color);
@@ -116,13 +125,12 @@
 }
 .overlay {
   position: absolute;
-  width: calc(100% - 32px);
+  width: 100%;
   top: 70px;
   display: flex;
   background-color: var(--accent-gray);
   align-content: center;
   justify-content: center;
-  padding: var(--sm-size);
   font: var(--semibold) var(--sm-size) var(--body-font);
   color: var(--primary-color);
 }
