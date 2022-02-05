@@ -14,7 +14,7 @@
 .label-content {
   color: var(--accent-orange);
 }
-.fa-check {
+.check {
   color: var(--accent-green);
 }
 .error-style {
