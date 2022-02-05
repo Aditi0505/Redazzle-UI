@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Aditi" />
+    <meta name="description" cotent="Component Library for styling purpose." />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png" />
+    <link rel="stylesheet" type="text/css" href="input.css">
+    <title>Input Component</title>
+</head>
+
+<body>
+    <!-- textbox -->
+    <label for="text" class="required-content label-content">Enter Name</label>
+    <input type="text" required name="text" id="text" class="inputBox" placeholder="Enter your name here" />
+    <!-- email -->
+    <label for="email" class="required-content label-content">Enter Email</label>
+    <input type="email" required name="email" id="email" class="inputBox" placeholder="Enter your email here" />
+    <!-- password -->
+    <label for="password" class="required-content label-content">Enter Password</label>
+    <input type="password" required name="password" id="password" class="inputBox"
+        placeholder="Enter your password here" />
+    <!-- address -->
+    <div>
+        <div>
+            <label for="password" class="label-content">Enter Address</label>
+        </div>
+        <textarea name="address" id="address" cols="20" rows="5" class="inputBox"
+            placeholder="Enter address"></textarea>
+    </div>
+    <!-- mobile number -->
+    <label for="mob" class="required-content label-content">Enter Mobile Number</label>
+    <input type="tel" required name="mob" maxlength="10" id="mob" class="inputBox"
+        placeholder="Enter your mobile number here" pattern="[0-9]{10}" />
+
+    <!-- disabled -->
+    <label for="text" class="required-content label-content">Enter Name</label>
+    <input type="text" disabled required name="text" id="text" class="inputBox" placeholder="Enter your name here" />
+    <!-- email -->
+    <label for="email" class="required-content label-content">Enter Email</label>
+    <input type="email" disabled required name="email" id="email" class="inputBox"
+        placeholder="Enter your email here" />
+
+    <!-- error styles -->
+    <span class="error-style">Please enter correct details</span>
+    <span class="error-style">This field is missing</span>
+
+    <!-- success style -->
+    <span class="success-style"><i class="fa fa-check check" aria-hidden="true"></i></span>
+</body>
+
+</html>

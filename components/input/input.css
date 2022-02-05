@@ -1,0 +1,27 @@
+@import url(../basic.css);
+.inputBox {
+  outline-color: var(--accent-gray);
+  font: var(--regular) var(--sm-size) var(--body-font);
+}
+.inputBox:focus {
+  outline-color: var(--accent-blue);
+}
+.required-content::after {
+  content: "*";
+  color: var(--hover);
+  font-weight: bold;
+}
+.label-content {
+  color: var(--accent-orange);
+}
+.check {
+  color: var(--accent-green);
+}
+.error-style {
+  border: 1px solid var(--hover);
+  border-radius: 5px;
+  padding: var(--xs-size);
+  font: var(--regular) var(--sm-size) var(--body-font);
+  color: var(--primary-color);
+  background-color: var(--accent-red);
+}
