@@ -81,12 +81,6 @@ body {
   gap: var(--md-size);
   width: 100%;
 }
-.avatar-example,
-.badge-icon-example,
-.badge-avatar-example,
-.badge-button-example,
-.badge-label-example,
-.button-example,
 .example {
   display: flex;
   justify-content: center;
@@ -108,11 +102,5 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card-example {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid var(--accent2);
-  padding: var(--sm-size);
-  gap: var(--md-size);
 }
