@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Aditi" />
+    <meta name="description" cotent="Component Library for styling purpose." />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png" />
+    <link rel="stylesheet" type="text/css" href="card.css">
+    <title>Card Component</title>
+</head>
+
+<body>
+    <!-- badge type 1 -->
+    <div class="card">
+        <div class="card-inner-container">
+            <div class="card-image">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body">
+                <div class="card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="icons">
+            <button class="btn-action flex-center">Add to Cart</button>
+            <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+        </div>
+    </div>
+    <!-- badge type 2 -->
+    <div class="card">
+        <div class="card-inner-container">
+            <div class="card-image">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body">
+                <div class="card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="icons">
+            <button class="btn-action flex-center">Add to Cart</button>
+            <span class="card-badge-text">New</span>
+        </div>
+    </div>
+    <!-- card with dismiss -->
+    <div class="card">
+        <div class="card-inner-container">
+            <div class="card-image">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body">
+                <div class="card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="icons">
+            <button class="flex-center btn-action">Add to Cart</button>
+            <button class="btn-action flex-center secondary">Remove from Wishlist</button>
+            <span class="dismiss flex-center"><button class="card-btn-close"><i
+                        class="close fas fa-times-circle"></i></button></span>
+        </div>
+    </div>
+    <!-- card with text overlay -->
+    <div class="card">
+        <div class="card-inner-container-overlay">
+            <div class="card-image-overlay opacity">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body-overlay opacity">
+                <div class="card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="icons-overlay opacity">
+                <button class="btn-action flex-center">Add to Cart</button>
+                <button class="btn-action-horizontal-hide secondary">Remove from wishlist</button>
+                <span class="dismiss flex-center"><button class="card-btn-close"><i
+                            class="close fas fa-times-circle"></i></button></span>
+            </div>
+            <div class="overlay flex-center">
+                Out of stock
+            </div>
+        </div>
+    </div>
+    <!-- card with text overlay variant2 -->
+    <div class="card">
+        <div class="card-inner-container">
+            <div class="card-image-overlay opacity">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="hide card-body-overlay">
+                <div class=" card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="flex-center overlay">
+                Women
+            </div>
+        </div>
+        <div class="hide icons-overlay opacity">
+            <button class="btn-action flex-center">Add to Cart</button>
+            <button class="btn-action-horizontal secondary">Remove from wishlist</button>
+            <span class="dismiss flex-center"><button class="card-btn-close"><i
+                        class="fas fa-times-circle"></i></button></span>
+        </div>
+    </div>
+
+    <!-- card with only text -->
+    <div class="text-card-container card">
+        <div class="card-inner-container">
+            <div class="hide">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body">
+                <div class=" card-title">Text Card</div>
+                <div class="card-desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quisquam tempore soluta voluptates
+                    omnis placeat quae quo facere cum itaque temporibus ipsa expedita, excepturi possimus rem totam,
+                    quas voluptas impedit.
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="hide">
+            <button class="flex-center btn-action">Add to Cart</button>
+            <button class="btn-action-horizontal secondary">Remove from wishlist</button>
+            <span class="dismiss flex-center"><button class="card-btn-close"><i
+                        class="fas fa-times-circle close"></i></button></span>
+        </div>
+    </div>
+
+    <!-- horizontal card-->
+    <div class="card-container-horizontal">
+        <div class="card-inner-container-horizontal">
+            <div class="card-image-horizontal">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img-horizontal" />
+            </div>
+            <div class="flex-center card-body-horizontal">
+                <div class="card-title-horizontal">Orange Hat</div>
+                <div class="card-desc-horizontal">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In maiores quibusdam exercitationem
+                    similique laborum? Excepturi quae, consectetur quam adipisci obcaecati porro minima vero facere
+                    doloremque quibusdam sunt eveniet tempore blanditiis!
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="hide">
+            <button class="btn-action-horizontal">Add to Cart</button>
+            <button class="btn-action-horizontal secondary">Remove from wishlist</button>
+            <span class="badge-horizontal"><i class="far fa-heart"></i></span>
+        </div>
+    </div>
+
+    <!-- horizontal card with button -->
+    <div class="card-container-horizontal">
+        <div class="card-inner-container-horizontal">
+            <div class="card-image-horizontal">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img-horizontal" />
+            </div>
+            <div class="flex-center card-body-horizontal">
+                <div class="card-title-horizontal">Orange Hat</div>
+                <div class="card-desc-horizontal">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In maiores quibusdam exercitationem
+                    similique laborum? Excepturi quae, consectetur quam adipisci obcaecati porro minima vero facere
+                    doloremque quibusdam sunt eveniet tempore blanditiis!
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="display-icons">
+            <button class="primary btn-action-horizontal">Add to Cart</button>
+            <button class="btn-action-horizontal secondary">Remove from wishlist</button>
+            <span class="hide"><i class="far fa-heart"></i></span>
+        </div>
+    </div>
+
+    <!-- card with shadow-->
+    <div class="card-container-shadow card">
+        <div class="card-inner-container">
+            <div class="card-image">
+                <img src="/images/Taylor-swift.jpg" alt="Taylor Swift" class="img" />
+            </div>
+            <div class="card-body">
+                <div class="card-title">Orange Hat</div>
+                <div class="card-desc">
+                    $2000
+                </div>
+            </div>
+            <div class="hide-overlay">
+                Women
+            </div>
+        </div>
+        <div class="icons">
+            <button class="btn-action flex-center">Add to Cart</button>
+            <span class="card-badge flex-center"><i class="far fa-heart"></i></span>
+        </div>
+    </div>
+</body>
+
+</html>

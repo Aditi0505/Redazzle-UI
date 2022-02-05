@@ -209,7 +209,7 @@ h5 {
   color: var(--accent1);
 }
 
-.fas {
+#toggle {
   font-size: var(--md-size);
 }
 .icon:hover,
