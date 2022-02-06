@@ -8,6 +8,7 @@
 @import url("../components/input/input.css");
 @import url("../components/list/list.css");
 @import url("../components/text-utility/text.css");
+@import url("../components/rating/rating.css");
 body {
   position: relative;
   height: 100vh;
