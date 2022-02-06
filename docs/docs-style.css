@@ -6,6 +6,8 @@
 @import url("../components/card/card.css");
 @import url("../components/image/image.css");
 @import url("../components/input/input.css");
+@import url("../components/list/list.css");
+@import url("../components/text-utility/text.css");
 body {
   position: relative;
   height: 100vh;
@@ -13,6 +15,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -22,14 +25,16 @@ body {
   border-bottom: 1px solid var(--accent2);
   position: fixed;
   top: 60px;
-  height: 90vh;
+  height: 92vh;
   padding-top: var(--xs-size);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .sidebar-title {
   text-align: left;
   color: var(--accent1);
   margin-left: var(--sm-size);
-  margin-right: var(--lg-size);
+  margin-right: var(--sm-size);
 }
 .item-container {
   height: 100%;
@@ -60,8 +65,8 @@ body {
 }
 .docs-container {
   margin-top: 60px;
-  margin-left: 250px;
-  margin-right: 60px;
+  margin-left: 300px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,4 +117,11 @@ body {
   align-items: center;
   padding: var(--sm-size);
   gap: var(--md-size);
+}
+.display-color {
+  color: var(--accent1);
+}
+.align {
+  border: 1px solid var(--accent2);
+  padding: var(--sm-size);
 }
