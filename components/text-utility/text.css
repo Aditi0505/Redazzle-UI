@@ -1,0 +1,78 @@
+@import url("../basic.css");
+/* headings */
+h1 {
+  font-size: var(--xxl-size);
+  line-height: var(--xxxl-size);
+  font-family: var(--heading-font);
+  font-weight: var(--bold);
+}
+h2 {
+  font-size: var(--xl-size);
+  line-height: var(--xxl-size);
+  font-family: var(--heading-font);
+}
+h3 {
+  font-size: var(--lg-size);
+  line-height: var(--xl-size);
+  font-family: var(--heading-font);
+}
+h4 {
+  font-size: var(--md-size);
+  line-height: var(--lg-size);
+  font-family: var(--heading-font);
+}
+h5 {
+  font-size: var(--sm-size);
+  line-height: var(--md-size);
+  font-family: var(--heading-font);
+}
+h6 {
+  font-size: var(--xs-size);
+  line-height: var(--sm-size);
+  font-family: var(--heading-font);
+}
+.text-xs {
+  font-size: var(--xs-size);
+}
+.text-sm {
+  font-size: var(--sm-size);
+}
+.text-md {
+  font-size: var(--md-size);
+}
+.text-lg {
+  font-size: var(--lg-size);
+}
+.text-lg {
+  font-size: var(--lg-size);
+}
+.ft-light {
+  font-weight: var(--light);
+}
+.ft-regular {
+  font-weight: var(--regular);
+}
+.ft-semibold {
+  font-weight: var(--semibold);
+}
+.ft-bold {
+  font-weight: var(--bold);
+}
+.ft-bolder {
+  font-weight: var(--bolder);
+}
+.dark-shade {
+  color: var(--secondary-color);
+}
+.light-shade {
+  color: var(--accent-gray);
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
