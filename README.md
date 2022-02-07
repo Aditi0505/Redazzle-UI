@@ -26,7 +26,7 @@
 #### To get the styles of the components and the JavaScript functionality, add the following line of code in the head tag of your HTML document.
 
 ```
-<link rel="stylesheet" href="hhttps://redazzleui.netlify.app/Components/redazzle.css">
+<link rel="stylesheet" href="https://redazzleui.netlify.app/Components/redazzle.css">
 ```
 
 ---
@@ -52,6 +52,8 @@
 
 ---
 
-The inspiration comes from Taylor Swift's album RED and the word Dazzle itself. I combined them both and came up with Redazzle.
+#### The inspiration comes from Taylor Swift's album RED and the word Dazzle itself. I combined them both and came up with Redazzle.
 
-I hope using this component libray would be as dazzling as the album RED is!
+#### I hope using this component libray would be as dazzling as the album RED is!
+
+---
