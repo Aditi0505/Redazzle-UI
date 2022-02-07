@@ -8,4 +8,5 @@
 @import url("./list/list.css");
 @import url("./rating/rating.css");
 @import url("./text-utility/text.css");
+@import url("../components/navigation-simple/nav-desktop.css");
 @import url("./basic.css");
