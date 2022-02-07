@@ -1,4 +1,4 @@
-# ![logo](/images/favicon-16x16.png) Redazzle
+# ![logo](/images/REDAZZLE.svg)
 
 [Visit Site](https://redazzleui.netlify.app/)
 
