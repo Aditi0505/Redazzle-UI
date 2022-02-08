@@ -1,7 +1,6 @@
 @import url("../basic.css");
 .responsive {
   width: 100%;
-  max-width: 200px;
   height: auto;
 }
 .rounded {
