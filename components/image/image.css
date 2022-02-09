@@ -4,7 +4,9 @@
   height: auto;
 }
 .rounded {
-  width: var(--xxxl-size);
-  height: var(--xxxl-size);
   border-radius: 50%;
+}
+.square {
+  width: 500px;
+  height: 500px;
 }
