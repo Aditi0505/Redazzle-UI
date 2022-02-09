@@ -65,7 +65,6 @@
   cursor: pointer;
 }
 .card-image:hover,
-.card-body:hover,
 .btn-action:hover {
   opacity: 70%;
 }
