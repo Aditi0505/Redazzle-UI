@@ -91,3 +91,9 @@
   background-color: var(--accent-purple);
   color: var(--primary-color);
 }
+.badge-icon:hover {
+  color: var(--hover);
+}
+.btn:hover {
+  opacity: 70%;
+}
