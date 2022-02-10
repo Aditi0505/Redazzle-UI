@@ -29,12 +29,12 @@
   font-weight: bold;
 }
 .img,
-.img-horizontal {
+.img-horizontal-margin {
   display: block;
   width: 100%;
   height: auto;
 }
-.img-horizontal {
+.img-horizontal-margin {
   margin: 10px 10px;
 }
 .btn-action {
@@ -147,13 +147,13 @@
 .card-inner-container-horizontal {
   display: flex;
   width: 100%;
-  gap: 30px;
 }
 .card-body-horizontal {
   flex-direction: column;
   text-align: left;
   gap: 10px;
   padding: 10px;
+  width: 50%;
 }
 .display-icons {
   display: flex;
@@ -188,4 +188,17 @@
 .card-container-shadow {
   box-shadow: 0 4px 8px 0 var(--secondary-color),
     0 6px 20px 0 var(--secondary-color);
+}
+.striked {
+  text-decoration: line-through;
+}
+.horizontal-card-image {
+  width: 50%;
+}
+.card-image-horizontal {
+  width: 50%;
+}
+.img-horizontal {
+  width: 100%;
+  height: 100%;
 }
