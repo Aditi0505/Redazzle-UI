@@ -64,7 +64,8 @@
   cursor: pointer;
 }
 .card-image:hover,
-.btn-action:hover {
+.btn-action:hover,
+.btn-action-horizontal:hover {
   opacity: 70%;
 }
 .card-title,
@@ -158,6 +159,7 @@
 .display-icons {
   display: flex;
   align-items: flex-end;
+  flex-direction: column;
   justify-content: flex-end;
   width: 100%;
   gap: 10px;
@@ -173,6 +175,7 @@
   cursor: pointer;
   border-radius: var(--sm-size);
   padding: 10px;
+  width: 50%;
 }
 .primary {
   color: var(--primary-color);
