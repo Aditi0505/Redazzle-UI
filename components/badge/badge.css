@@ -44,7 +44,7 @@
   color: var(--accent-pink);
   font: var(--bold) var(--md-size) var(--body-font);
 }
-.btn {
+.badge-btn {
   background-color: var(--cta);
   border: none;
   border-radius: 5px;
@@ -94,6 +94,6 @@
 .badge-icon:hover {
   color: var(--hover);
 }
-.btn:hover {
+.badge-btn:hover {
   opacity: 70%;
 }

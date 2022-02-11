@@ -179,11 +179,11 @@
 }
 .primary {
   color: var(--primary-color);
-  background-color: var(--accent-blue);
+  background-color: var(--cta);
 }
 .secondary {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 .btn-action-horizontal-hide {
   display: none;

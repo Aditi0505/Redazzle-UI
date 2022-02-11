@@ -8,14 +8,28 @@
   --cta: #c42625;
   --accent-black: #08060d;
   --accent-gray: #c5c5c5;
-  --accent-orange: #c47625;
+  --accent-orange: #ca7622;
   --accent-pink: #c42573;
-  --accent-red: #db4241;
-  --accent-blue: #25c3c4;
+  --accent-red: #c35150;
+  --accent-blue: #1d7abd;
   --accent-purple: #7625c4;
-  --accent-green: #74c425;
+  --accent-green: #10a658;
   --disable: #fceeee;
   --hover: #d62929;
+  --accent-light-purple: #fff1ff;
+  --accent-light-gray: #ebebeb;
+  --accent-light-red: #ffdbda;
+  --accent-light-green: #ffffbe;
+  --accent-light-orange: #ffffbe;
+  --accent-light-blue: #f1ffff;
+  --accent-blue-hover: #b2ebf2;
+  --accent-purple-hover: #d1c4e9;
+  --accent-secondary-hover: #cfd8dc;
+  --accent-red-hover: #ffcdd2;
+  --accent-green-hover: #dcedc8;
+  --accent-orange-hover: #ffe0b2;
+  --accent-pink-hover: #f8bbd0;
+  --accent-light-cta: #fff1f1;
 
   /* font sizes */
   --xxxl-size: 64px;

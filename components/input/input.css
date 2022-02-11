@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 .label-content {
-  color: var(--accent-orange);
+  color: var(--secondary-color);
 }
 .check {
   color: var(--accent-green);
