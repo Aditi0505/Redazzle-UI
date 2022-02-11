@@ -16,7 +16,7 @@
   color: var(--primary-color);
 }
 .primary-alert {
-  background-color: var(--accent-purple);
+  background-color: var(--cta);
   color: var(--primary-color);
 }
 .success-alert {

@@ -123,15 +123,20 @@
         <h2 class="title">Examples of Alerts</h2>
         <p class="desc">Alerts can contain any length of text.</p>
         <div class="alert-example">
+          <!-- Primary Alert -->
+          <div class="primary-alert display">
+            <i class="fas fa-info-circle"></i>
+            <span>Example of primary alert.</span>
+          </div>
+          <!-- Secondary Alert -->
+          <div class="secondary-alert display">
+            <i class="fas fa-info-circle"></i>
+            <span>Example of secondary alert.</span>
+          </div>
           <!-- Info Alert -->
           <div class="info-alert display">
             <i class="fas fa-info-circle"></i>
             <span>Example of info alert.</span>
-          </div>
-          <!-- Error Alert -->
-          <div class="error-alert display">
-            <i class="fas fa-exclamation-circle"></i>
-            <span>Example of error alert.</span>
           </div>
           <!-- Success Alert -->
           <div class="success-alert display">
@@ -143,15 +148,10 @@
             <i class="fas fa-exclamation-triangle"></i>
             <span>Example of warning alert.</span>
           </div>
-          <!-- Primary Alert -->
-          <div class="primary-alert display">
-            <i class="fas fa-info-circle"></i>
-            <span>Example of primary alert.</span>
-          </div>
-          <!-- Secondary Alert -->
-          <div class="secondary-alert display">
-            <i class="fas fa-info-circle"></i>
-            <span>Example of secondary alert.</span>
+          <!-- Error Alert -->
+          <div class="error-alert display">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Example of error alert.</span>
           </div>
         </div>
         <iframe class="iframe-display"
@@ -163,16 +163,22 @@
           Alerts can contain any length of text with a close button.
         </p>
         <div class="alert-example">
-          <!-- Info Alert -->
-          <div class="info-alert display">
-            <span>Example of info alert.</span>
+          <div class="primary-alert display">
+            <span>Example of primary alert.</span>
             <button class="btn-close">
               <i class="fas fa-times-circle"></i>
             </button>
           </div>
-          <!-- Error Alert -->
-          <div class="error-alert display">
-            <span>Example of error alert.</span>
+          <!-- Secondary Alert -->
+          <div class="secondary-alert display">
+            <span>Example of secondary alert.</span>
+            <button class="btn-close">
+              <i class="fas fa-times-circle"></i>
+            </button>
+          </div>
+          <!-- Info Alert -->
+          <div class="info-alert display">
+            <span>Example of info alert.</span>
             <button class="btn-close">
               <i class="fas fa-times-circle"></i>
             </button>
@@ -191,15 +197,9 @@
               <i class="fas fa-times-circle"></i>
             </button>
           </div>
-          <div class="primary-alert display">
-            <span>Example of primary alert.</span>
-            <button class="btn-close">
-              <i class="fas fa-times-circle"></i>
-            </button>
-          </div>
-          <!-- Secondary Alert -->
-          <div class="secondary-alert display">
-            <span>Example of secondary alert.</span>
+          <!-- Error Alert -->
+          <div class="error-alert display">
+            <span>Example of error alert.</span>
             <button class="btn-close">
               <i class="fas fa-times-circle"></i>
             </button>
@@ -302,7 +302,7 @@
         </p>
         <div class="example">
           <div class="badge">
-            <div><button class="btn">Action</button></div>
+            <div><button class="badge-btn">Action</button></div>
             <span class="display-flex badge-number badge-display">7</span>
           </div>
         </div>
