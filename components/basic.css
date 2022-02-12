@@ -63,3 +63,7 @@
 .padding-sm {
   padding: var(--sm-size);
 }
+.margin-tb-sm {
+  margin-top: var(--sm-size);
+  margin-bottom: var(--sm-size);
+}
