@@ -33,18 +33,19 @@ h6 {
 }
 .text-xs {
   font-size: var(--xs-size);
+  font-family: var(--body-font);
 }
 .text-sm {
   font-size: var(--sm-size);
+  font-family: var(--body-font);
 }
 .text-md {
   font-size: var(--md-size);
+  font-family: var(--body-font);
 }
 .text-lg {
   font-size: var(--lg-size);
-}
-.text-lg {
-  font-size: var(--lg-size);
+  font-family: var(--body-font);
 }
 .ft-light {
   font-weight: var(--light);

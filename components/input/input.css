@@ -13,6 +13,8 @@
 }
 .label-content {
   color: var(--secondary-color);
+  font-family: var(--body-font);
+  font-size: var(--sm-size);
 }
 .check {
   color: var(--accent-green);

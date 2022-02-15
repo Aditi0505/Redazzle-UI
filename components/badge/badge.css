@@ -51,6 +51,7 @@
   padding: var(--sm-size);
   color: var(--primary-color);
   cursor: pointer;
+  font-family: var(--body-font);
 }
 .status {
   border: 1px solid var(--primary-color);
