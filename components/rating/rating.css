@@ -2,3 +2,6 @@
 .enabled {
   color: var(--accent-orange);
 }
+.rating-enabled {
+  font-size: var(--sm-size);
+}

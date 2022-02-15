@@ -42,7 +42,7 @@
   outline-color: var(--accent-gray);
 
   font: var(--regular) var(--sm-size) var(--body-font);
-  padding: 10px;
+  padding: 1rem;
 }
 #search:focus {
   outline-color: var(--accent-blue);

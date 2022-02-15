@@ -11,13 +11,13 @@
   --hover: #d62929;
 
   /* font sizes */
-  --xxxl-size: 64px;
-  --xxl-size: 48px;
-  --xl-size: 40px;
-  --lg-size: 32px;
-  --md-size: 24px;
-  --sm-size: 16px;
-  --xs-size: 8px;
+  --xxxl-size: 6.4rem;
+  --xxl-size: 4.8rem;
+  --xl-size: 4rem;
+  --lg-size: 3.2rem;
+  --md-size: 2.4rem;
+  --sm-size: 1.6rem;
+  --xs-size: 0.8rem;
 
   /* font weight */
   --light: 300;
@@ -38,7 +38,6 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
 .light-mode {
   --primary-color: #fefefe;
   --secondary-color: #525252;
@@ -56,6 +55,9 @@
   --accent2: #525252;
   --disable: #fceeee;
   --hover: #d62929;
+}
+html {
+  font-size: 62.5%;
 }
 body {
   background-color: var(--primary-color);
@@ -168,12 +170,12 @@ h5 {
   width: 50%;
 }
 .hero {
-  width: 545px;
+  width: 54.5rem;
 }
 .actions {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 .cta-install {
   border: 1px solid var(--cta);
@@ -182,6 +184,7 @@ h5 {
   color: var(--cta);
   font-family: var(--body-font);
   font-weight: var(--regular);
+  font-size: var(--sm-size);
 }
 .cta-doc {
   padding: var(--sm-size);
@@ -190,6 +193,7 @@ h5 {
   border-radius: 5px;
   font-family: var(--body-font);
   font-weight: var(--regular);
+  font-size: var(--sm-size);
 }
 .desc {
   font-size: var(--lg-size);
@@ -221,5 +225,5 @@ h5 {
   transform: scale(1);
   overflow: hidden;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }

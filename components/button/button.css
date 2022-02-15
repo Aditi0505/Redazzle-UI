@@ -2,8 +2,8 @@
 
 .btn {
   border: none;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 1rem;
+  padding: 1rem;
   font: var(--bold) var(--sm-size) var(--body-font);
   cursor: pointer;
 }
