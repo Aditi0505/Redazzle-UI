@@ -2,11 +2,12 @@
 .responsive {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .rounded {
   border-radius: 50%;
 }
 .square {
-  width: 500px;
-  height: 500px;
+  width: 50rem;
+  height: 50rem;
 }

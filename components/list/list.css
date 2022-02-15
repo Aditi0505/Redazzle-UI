@@ -1,29 +1,35 @@
 @import url("../basic.css");
 .list-item-inline {
   display: inline;
+  font-size: var(--sm-size);
 }
 .list-style-none {
   list-style: none;
+  font-size: var(--sm-size);
 }
 .stacked-list-element {
   border-bottom: 1px solid var(--secondary-color);
   padding: var(--md-size);
   display: flex;
-  gap: 10px;
+  gap: 1rem;
+  font-size: var(--sm-size);
 }
 .stacked-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 1rem;
 }
 .stacked-data {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 .list-img {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
+}
+.list {
+  font-size: var(--sm-size);
 }
