@@ -2,10 +2,12 @@
 .list-item-inline {
   display: inline;
   font-size: var(--sm-size);
+  font-family: var(--body-font);
 }
 .list-style-none {
   list-style: none;
   font-size: var(--sm-size);
+  font-family: var(--body-font);
 }
 .stacked-list-element {
   border-bottom: 1px solid var(--secondary-color);
@@ -32,4 +34,5 @@
 }
 .list {
   font-size: var(--sm-size);
+  font-family: var(--body-font);
 }
