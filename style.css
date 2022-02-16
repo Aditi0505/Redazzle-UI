@@ -132,6 +132,11 @@ h5 {
   align-items: center;
   list-style: none;
 }
+.hamburger-icon {
+  color: var(--cta);
+  font-weight: var(--regular);
+  font-size: var(--md-size);
+}
 .btn-off {
   border: none;
   background-color: var(--secondary-color);

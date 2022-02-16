@@ -117,3 +117,38 @@ body {
   border: 1px solid var(--accent2);
   padding: var(--sm-size);
 }
+@media screen and (max-width: 1140px) {
+  html {
+    font-size: 50%;
+  }
+  .sidebar,
+  .doc-link {
+    display: none;
+  }
+  .main-container {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .docs-container {
+    width: 100%;
+    margin: 12rem 0 0 0;
+  }
+  .example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--accent2);
+    padding: var(--sm-size);
+    gap: var(--md-size);
+    overflow: scroll;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 35%;
+  }
+}
