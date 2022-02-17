@@ -139,11 +139,11 @@ body {
   border-bottom: 1px solid var(--accent2);
   position: fixed;
   top: 6.5rem;
-  height: 100vh;
+  height: calc(100% - 7.5rem);
   padding-top: var(--xs-size);
   overflow-y: auto;
   overflow-x: hidden;
-  z-index: 2;
+  z-index: 1;
 }
 @media screen and (max-width: 1140px) {
   html {
