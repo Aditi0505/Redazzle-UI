@@ -1,5 +1,3 @@
-@import url("/components/basic.css");
-@import url(/components/avatar/avatar.css);
 .badge-icon {
   font-size: var(--lg-size);
   color: var(--cta);
