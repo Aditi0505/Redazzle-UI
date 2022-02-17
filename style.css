@@ -137,7 +137,8 @@ h5 {
   font-weight: var(--regular);
   font-size: var(--md-size);
 }
-.btn-off {
+.btn-off,
+.hamburger-icon {
   border: none;
   background-color: var(--secondary-color);
   cursor: pointer;
