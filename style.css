@@ -132,7 +132,13 @@ h5 {
   align-items: center;
   list-style: none;
 }
-.btn-off {
+.hamburger-icon {
+  color: var(--cta);
+  font-weight: var(--regular);
+  font-size: var(--md-size);
+}
+.btn-off,
+.hamburger-icon {
   border: none;
   background-color: var(--secondary-color);
   cursor: pointer;
@@ -226,4 +232,36 @@ h5 {
   overflow: hidden;
   width: 100%;
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 64em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (max-width: 41em) {
+  html {
+    font-size: 35%;
+  }
+  .outer-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contents {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: var(--xl-size);
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5px;
+  }
 }
