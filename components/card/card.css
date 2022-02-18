@@ -46,21 +46,6 @@
   cursor: pointer;
   font-family: var(--body-font);
 }
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.flex-spbt {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sm-size);
-}
 .card-badge {
   width: var(--md-size);
   height: var(--md-size);
