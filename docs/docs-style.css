@@ -145,7 +145,7 @@ body {
   overflow-x: hidden;
   z-index: 1;
 }
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 71em) {
   html {
     font-size: 50%;
   }
@@ -176,7 +176,7 @@ body {
     width: 0rem;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 41em) {
   html {
     font-size: 35%;
   }
@@ -184,7 +184,7 @@ body {
     top: 8rem;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 39em) {
   .container-open {
     top: 7.5rem;
   }
