@@ -35,6 +35,9 @@ body {
   margin-left: var(--sm-size);
   margin-right: var(--sm-size);
 }
+.nav-close {
+  display: none;
+}
 .item-container {
   height: 100%;
   width: 100%;
@@ -169,7 +172,8 @@ body {
     gap: var(--md-size);
     overflow: scroll;
   }
-  .hamburger-icon {
+  .hamburger-icon,
+  .nav-close {
     display: block;
   }
   .container {
@@ -183,9 +187,15 @@ body {
   .container-open {
     top: 8rem;
   }
+  .nav-close {
+    display: block;
+  }
 }
 @media screen and (max-width: 39em) {
   .container-open {
     top: 7.5rem;
+  }
+  .nav-close {
+    display: block;
   }
 }
