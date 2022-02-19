@@ -10,17 +10,21 @@
     <meta name="description" cotent="Component Library for styling purpose." />
     <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.png" />
     <link rel="stylesheet" type="text/css" href="toast.css">
+    <link rel="stylesheet" type="text/css" href="/components/basic.css">
     <title>Toast Component</title>
 </head>
 
 <body>
-    <div class="leading-container flex-spbt">
-        <div class="leading-toast">
+    <div class="leading-container">
+        <div class="leading-toast flex-spbt">
             <div>Can't send photo. Retry in 5 seconds.</div>
-            <a href="#">RETRY</a>
-            <button class="btn">
-                <i class="fa fa-times" aria-hidden="true"></i>
-            </button>
+            <div class="btn-container flex-spbt">
+                <button class="toast-btn toast">RETRY</button>
+                <button class="toast toast-close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+
         </div>
     </div>
 </body>
