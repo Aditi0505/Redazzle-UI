@@ -1,0 +1,36 @@
+.leading-toast {
+  width: 50rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: var(--sm-size);
+  font-size: var(--sm-size);
+  font-family: var(--body-font);
+  border: 1px solid var(--secondary-color);
+}
+.toast-close {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.toast {
+  border: none;
+  background-color: transparent;
+  color: var(--cta);
+  font-size: var(--sm-size);
+  padding: 3px;
+  font-family: var(--body-font);
+}
+.btn-container {
+  width: 30%;
+}
+.toast-close:hover {
+  background-color: var(--accent-red-hover);
+  color: var(--primary-color);
+  border-radius: 50%;
+}
+.toast-btn:hover {
+  background-color: var(--accent-red-hover);
+  color: var(--primary-color);
+  border-radius: 1rem;
+}
