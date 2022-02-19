@@ -47,7 +47,7 @@ handleNavClick = () => {
 handleClose = () => {
   container.classList.remove("container-open");
   container.classList.add("container");
-  nav_close.classList.remove("hide");
+  nav_close.classList.add("hide");
 };
 btn_toggle.addEventListener("click", handleClick);
 nav_toggle.addEventListener("click", handleNavClick);
