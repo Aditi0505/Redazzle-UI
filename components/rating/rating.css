@@ -3,4 +3,5 @@
 }
 .rating-enabled {
   font-size: var(--sm-size);
+  color: var(--secondary-color);
 }

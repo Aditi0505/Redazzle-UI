@@ -66,6 +66,9 @@ html {
 .padding-sm {
   padding: var(--sm-size);
 }
+.padding-md {
+  padding: var(--md-size);
+}
 .margin-tb-sm {
   margin-top: var(--sm-size);
   margin-bottom: var(--sm-size);
