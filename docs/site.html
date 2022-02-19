@@ -111,6 +111,11 @@
         </div>
         <div class="item11">
           <div class="items">
+            <a href="#toast" class="item-link">Toast</a>
+          </div>
+        </div>
+        <div class="item12">
+          <div class="items">
             <a href="#utility" class="item-link">Utility</a>
           </div>
         </div>
@@ -948,6 +953,34 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
+      <section class="docs" id="rating">
+        <h1 class="title">Rating</h1>
+        <p class="desc">
+          Ratings are used to display reviews.
+        </p>
+        <h2 class="title">Examples of Ratings</h2>
+        <p class="desc">You can add class <strong>enabled</strong> to show a review.</p>
+        <div class="column-example example">
+          <div class="rating-enabled">
+            <i class="fas fa-star enabled"></i>
+            <i class="fas fa-star enabled"></i>
+            <i class="fas fa-star enabled"></i>
+            <i class="fas fa-star enabled"></i>
+            <i class="fas fa-star enabled"></i>
+          </div>
+          <div class="rating-enabled">
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=383&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-enabled%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating-enabled%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
       <section class="docs" id="utility">
         <h1 class="title">Text Utilities</h1>
         <p class="desc">
@@ -1017,31 +1050,30 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
-      <section class="docs" id="rating">
-        <h1 class="title">Rating</h1>
+      <section class="docs" id="toast">
+        <h1 class="title">Toast</h1>
         <p class="desc">
-          Ratings are used to display reviews.
+          Toasts acts as push notifications for users. Toasts are generally placed at the bottom of the screen, at the
+          center or to the left.
+          It can also be placed at the top-right position of the screen.
         </p>
-        <h2 class="title">Examples of Ratings</h2>
-        <p class="desc">You can add class <strong>enabled</strong> to show a review.</p>
+        <h2 class="title">Examples of Toast</h2>
+        <p class="desc">Toast containing the customized message</p>
         <div class="column-example example">
-          <div class="rating-enabled">
-            <i class="fas fa-star enabled"></i>
-            <i class="fas fa-star enabled"></i>
-            <i class="fas fa-star enabled"></i>
-            <i class="fas fa-star enabled"></i>
-            <i class="fas fa-star enabled"></i>
-          </div>
-          <div class="rating-enabled">
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+          <div class="leading-container">
+            <div class="leading-toast flex-spbt">
+              <div>Can't send photo. Retry in 5 seconds.</div>
+              <div class="btn-container flex-spbt">
+                <button class="toast-btn toast">RETRY</button>
+                <button class="toast toast-close">
+                  <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <iframe class="iframe-display"
-          src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=383&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-enabled%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520enabled%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522rating-enabled%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+          src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=1262&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522leading-container%2522%253E%250A%2509%253Cdiv%2520class%253D%2522leading-toast%2520flex-spbt%2522%253E%250A%2509%2509%253Cdiv%253ECannot%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2509%2509%253Cdiv%2520class%253D%2522btn-container%2520flex-spbt%2522%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522toast-btn%2520toast%2522%253ERETRY%253C%252Fbutton%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522toast%2520toast-close%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fa%2520fa-times%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253C%252Fbutton%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
