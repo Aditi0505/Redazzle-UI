@@ -6,7 +6,6 @@
   flex-direction: column;
 }
 .modal-content {
-  height: 10%;
   font: var(--bolder) var(--md-size) var(--body-font);
 }
 .modal-close {
@@ -20,10 +19,8 @@
   display: flex;
   justify-content: flex-end;
   gap: 20px;
-  height: 10%;
 }
 .modal-body {
-  height: 80%;
   font: var(--sm-size) var(--body-font);
 }
 .footer-submit {
