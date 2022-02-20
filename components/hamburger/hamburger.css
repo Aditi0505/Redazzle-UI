@@ -1,0 +1,25 @@
+.ham-icon {
+  color: var(--cta);
+  font-weight: var(--regular);
+  font-size: var(--md-size);
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.gutter-space {
+  gap: var(--sm-size);
+}
+.drawer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--md-size);
+  font: var(--sm-size) var(--body-font);
+  width: 20rem;
+  border: 1px solid var(--secondary-color);
+  padding: var(--sm-size);
+}
+.nav-relative {
+  top: 0;
+  z-index: 4;
+  background-color: var(--primary-color);
+}
