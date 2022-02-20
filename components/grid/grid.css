@@ -1,0 +1,21 @@
+.grid-container-col {
+  font: var(--regular) var(--sm-size) var(--body-font);
+  gap: 2rem;
+  width: 100%;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  font: var(--regular) var(--sm-size) var(--body-font);
+  gap: 2rem;
+  width: 100%;
+}
+.column,
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-gray);
+  padding: var(--xs-size);
+}

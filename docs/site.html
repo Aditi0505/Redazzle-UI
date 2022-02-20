@@ -56,7 +56,7 @@
     <div class="container">
       <div class="title-container">
         <h3 class="sidebar-title">Components</h3>
-        <i class="fas fa-times-circle nav-close icon hide"></i>
+        <i class="fas fa-times-circle nav-close icon"></i>
       </div>
       <div class="item-container">
         <div class="item1">
@@ -86,35 +86,45 @@
         </div>
         <div class="item6">
           <div class="items">
-            <a href="#image" class="item-link">Image</a>
+            <a href="#grid" class="item-link">Grid</a>
           </div>
         </div>
         <div class="item7">
           <div class="items">
-            <a href="#input" class="item-link">Input</a>
+            <a href="#image" class="item-link">Image</a>
           </div>
         </div>
         <div class="item8">
           <div class="items">
-            <a href="#list" class="item-link">List</a>
+            <a href="#input" class="item-link">Input</a>
           </div>
         </div>
         <div class="item9">
           <div class="items">
-            <a href="#navigation" class="item-link">Navigation</a>
+            <a href="#list" class="item-link">List</a>
           </div>
         </div>
         <div class="item10">
           <div class="items">
-            <a href="#rating" class="item-link">Rating</a>
+            <a href="#modal" class="item-link">Modal</a>
           </div>
         </div>
         <div class="item11">
           <div class="items">
-            <a href="#toast" class="item-link">Toast</a>
+            <a href="#navigation" class="item-link">Navigation</a>
           </div>
         </div>
         <div class="item12">
+          <div class="items">
+            <a href="#rating" class="item-link">Rating</a>
+          </div>
+        </div>
+        <div class="item13">
+          <div class="items">
+            <a href="#toast" class="item-link">Toast</a>
+          </div>
+        </div>
+        <div class="item14">
           <div class="items">
             <a href="#utility" class="item-link">Utility</a>
           </div>
@@ -742,6 +752,61 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
+      <section class="docs" id="grid">
+        <h1 class="title">Grid</h1>
+        <p class="desc">
+          Grids can be used for layout purpose. These are made using flexbox and is responsive.
+        </p>
+        <h2 class="title">Examples of Grid</h2>
+        <p class="desc">Following are the examples of simplified grid having 2 items.
+        </p>
+        <div class="example">
+          <!-- grid 2 item -->
+          <div class="grid-container flex-spbt">
+            <div class="row">
+              Row-1 Column-1
+            </div>
+            <div class="row">
+              Row-2 Column-1
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <!-- grid 2 item Column -->
+          <div class="grid-container-col flex-spbt">
+            <div class="column">Row-1 Column-1</div>
+            <div class="column">Row-1 Column-2</div>
+          </div>
+        </div>
+        <p class="desc">Following are the examples of simplified grid having 3 items.
+        </p>
+        <div class="example">
+          <!-- grid 3 item -->
+          <div class="grid-container flex-spbt">
+            <div class="row">
+              Row-1 Column-1
+            </div>
+            <div class="row">
+              Row-2 Column-1
+            </div>
+            <div class="row">
+              Row-3 Column-1
+            </div>
+          </div>
+        </div>
+        <div class="example">
+          <!-- grid 2 item Column -->
+          <div class="grid-container-col flex-spbt">
+            <div class="column">Row-1 Column-1</div>
+            <div class="column">Row-1 Column-2</div>
+            <div class="column">Row-1 Column-3</div>
+          </div>
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520responsive%2520image%2520--%253E%250A%253Cimg%2520alt%253D%2522taylor%2520swift%2522%2520src%253D%2522%252Fimages%252Ftaylor-swift1.jpg%2522%2520class%253D%2522responsive%2522%2520%252F%253E%250A%250A%253C%21--%2520rounded%2520image%2520--%253E%250A%253Cimg%2520alt%253D%2522taylor%2520swift%2522%2520src%253D%2522%252Fimages%252Ftaylor-swift1.jpg%2522%2520class%253D%2522rounded%2520square%2522%2520%252F%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
       <section class="docs" id="image">
         <h1 class="title">Image</h1>
         <p class="desc">
@@ -909,6 +974,36 @@
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
+      <section class="docs" id="modal">
+        <h1 class="title">Modal</h1>
+        <p class="desc">
+          Modals can be used to direct users attention to an important action or piece of information.
+        </p>
+        <h2 class="title">Example of Modal</h2>
+        <p class="desc">Modal consists of the <strong>header</strong>, <strong>body</strong>, and
+          <strong>footer</strong> containing related buttons. To position it over everything else use the class
+          <strong>z-index</strong> with it.
+        </p>
+        <div class="example">
+          <div class="modal">
+            <div class="modal-content padding-sm flex-spbt">
+              <div>Modal Title</div>
+              <button class="modal-close"><i class="fas fa-times-square"></i></button>
+            </div>
+            <div class="modal-body padding-sm">
+              <div>Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="modal-footer padding-sm">
+              <button class="modal-footer-close padding-xs modal-footer-btn">Close</button>
+              <button class="footer-submit padding-xs modal-footer-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=1262&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%253Cdiv%2520class%253D%2522modal-content%2520padding-sm%2520flex-spbt%2522%253E%250A%2509%2509%253Cdiv%253EModal%2520Title%253C%252Fdiv%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times-square%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522modal-body%2520padding-sm%2522%253E%250A%2509%2509%253Cdiv%253ELorem%2520ipsum%2520dolor%2520sit%2520amet.%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522modal-footer%2520padding-sm%2522%253E%250A%2509%2509%253Cbutton%2520class%253D%2522modal-footer-close%2520padding-xs%2520modal-footer-btn%2522%253EClose%253C%252Fbutton%253E%250A%2509%2509%253Cbutton%2520class%253D%2522footer-submit%2520padding-xs%2520modal-footer-btn%2522%253ESubscribe%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
       <section class="docs" id="navigation">
         <h1 class="title">Navigation</h1>
         <p class="desc">
@@ -918,7 +1013,8 @@
         <p class="desc">Navigation contains the <strong>Brand logo</strong>, <strong>Brand Name</strong>,
           <strong>Search
             bar</strong>, and <strong>icons list</strong>. You can create a <strong>fixed</strong> header by providing a
-          class <strong>position-fixed</strong>.
+          class <strong>position-fixed</strong>. To position it over everything else use the class
+          <strong>z-index</strong> with it.
         </p>
         <div class="example">
           <header class="desktop-navigation">
@@ -1055,7 +1151,9 @@
         <p class="desc">
           Toasts acts as push notifications for users. Toasts are generally placed at the bottom of the screen, at the
           center or to the left.
-          It can also be placed at the top-right position of the screen.
+          It can also be placed at the top-right position of the screen. To position it over everything else use the
+          class
+          <strong>z-index</strong> with it.
         </p>
         <h2 class="title">Examples of Toast</h2>
         <p class="desc">Toast containing the customized message</p>
