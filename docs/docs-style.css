@@ -98,6 +98,9 @@ body {
   padding: var(--sm-size);
   gap: var(--md-size);
 }
+.vertical-example {
+  height: 15rem;
+}
 .docs:target {
   scroll-margin-top: 7.2rem;
 }

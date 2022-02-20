@@ -7,6 +7,7 @@
 }
 .modal-content {
   font: var(--bolder) var(--md-size) var(--body-font);
+  color: var(--secondary-color);
 }
 .modal-close {
   border: none;
@@ -22,6 +23,7 @@
 }
 .modal-body {
   font: var(--sm-size) var(--body-font);
+  color: var(--secondary-color);
 }
 .footer-submit {
   background-color: var(--cta);
