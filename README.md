@@ -6,18 +6,18 @@
 
 ---
 
-- #### Redazzle is a component library to style and build fast web interfaces.
+- #### Redazzle is a responsive component library to style and build fast web interfaces.
 
 - #### This application is built in HTML, CSS and JavaScript.
 
 - #### Features that I hope to implement soon :
-  1.  #### Making the application responsive.
-  2.  #### Adding the following components to it
-  - #### Toast
+  1.  #### Adding the following components to it
+  - #### Submenu
+  2. #### Adding Javascript to the following components:
   - #### Modal
-  - #### Slider
-  - #### Navigation
-  - #### Grid
+  - #### Toast
+  - #### Rating
+  - #### Hamburger
 
 ---
 
