@@ -17,6 +17,7 @@
   width: 20rem;
   border: 1px solid var(--secondary-color);
   padding: var(--sm-size);
+  color: var(--secondary-color);
 }
 .nav-relative {
   top: 0;
