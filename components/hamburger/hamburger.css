@@ -24,3 +24,12 @@
   z-index: 4;
   background-color: var(--primary-color);
 }
+.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--xs-size);
+  font: var(--sm-size) var(--body-font);
+  margin-left: var(--sm-size);
+  color: var(--secondary-color);
+}

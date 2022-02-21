@@ -1114,7 +1114,7 @@
                   <span class="ft-bolder">
                     <i class="fas fa-inbox"></i>
                   </span>
-                  <div class="items">Inbox</div>
+                  <div class="drawer-items">Inbox</div>
                 </div>
               </li>
               <li class="list-item">
@@ -1122,7 +1122,7 @@
                   <span class="ft-bolder">
                     <i class="fas fa-star"></i>
                   </span>
-                  <div class="items">Star</div>
+                  <div class="drawer-items">Star</div>
                 </div>
               </li>
               <li class="list-item">
@@ -1130,7 +1130,7 @@
                   <span class="ft-bolder">
                     <i class="fas fa-paper-plane"></i>
                   </span>
-                  <div class="items">Sent Mail</div>
+                  <div class="drawer-items">Sent Mail</div>
                 </div>
               </li>
               <li class="list-item">
@@ -1138,7 +1138,7 @@
                   <span class="ft-bolder">
                     <i class="far fa-envelope-open"></i>
                   </span>
-                  <div class="items">Drafts</div>
+                  <div class="drawer-items">Drafts</div>
                 </div>
               </li>
             </ul>
@@ -1146,6 +1146,85 @@
         </div>
         <iframe class="iframe-display"
           src="https://carbon.now.sh/embed?bg=rgba%28197%2C197%2C197%2C1%29&t=duotone-dark&wt=none&l=css&width=1262&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Caside%253E%250A%2509%253Cul%2520class%253D%2522drawer-wrapper%2520list-style-none%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2509%2509%2509%253Cdiv%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522title%2522%253ETitle%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522sub-title%2522%253Esubtext%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522flex-spbt%2522%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522ft-bolder%2522%253E%250A%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522items%2522%253EInbox%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522flex-spbt%2522%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522ft-bolder%2522%253E%250A%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522items%2522%253EStar%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522flex-spbt%2522%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522ft-bolder%2522%253E%250A%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522items%2522%253ESent%2520Mail%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cli%2520class%253D%2522list-item%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522flex-spbt%2522%253E%250A%2509%2509%2509%2509%253Cspan%2520class%253D%2522ft-bolder%2522%253E%250A%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-envelope-open%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522items%2522%253EDrafts%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Faside%253E"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2 class="title">Example of SubMenu</h2>
+        <p class="desc">
+          On clicking on a menu item, a submenu opens up. This can also be visualized as a nested drawer.
+        </p>
+        <div class="example">
+          <aside>
+            <ul class="drawer-wrapper list-style-none">
+              <li class="list-item flex-column">
+                <div>
+                  <div class="title">Title</div>
+                  <div class="sub-title">subtext</div>
+                </div>
+              </li>
+              <li class="list-item flex-column">
+                <div class="flex-spbt">
+                  <span class="ft-bolder">
+                    <i class="fas fa-inbox"></i>
+                  </span>
+                  <div class="drawer-items ">Inbox</div>
+                </div>
+                <ul class="submenu list-style-none">
+                  <li class="list-item">
+                    <div class="flex-spbt">
+                      <span class="ft-bolder">
+                        <i class="fa fa-user"></i>
+                      </span>
+                      <div class="drawer-items">Social</div>
+                    </div>
+                  </li>
+                  <li class="list-item">
+                    <div class="flex-spbt">
+                      <span class="ft-bolder">
+                        <i class="fa fa-ad"></i>
+                      </span>
+                      <div class="drawer-items">Promotions</div>
+                    </div>
+                  </li>
+                  <li class="list-item">
+                    <div class="flex-spbt">
+                      <span class="ft-bolder">
+                        <i class="fa fa-pen"></i>
+                      </span>
+                      <div class="drawer-items">Updates</div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="list-item">
+                <div class="flex-spbt">
+                  <span class="ft-bolder">
+                    <i class="fas fa-star"></i>
+                  </span>
+                  <div class="drawer-items">Star</div>
+                </div>
+              </li>
+              <li class="list-item">
+                <div class="flex-spbt">
+                  <span class="ft-bolder">
+                    <i class="fas fa-paper-plane"></i>
+                  </span>
+                  <div class="drawer-items">Sent Mail</div>
+                </div>
+              </li>
+              <li class="list-item">
+                <div class="flex-spbt">
+                  <span class="ft-bolder">
+                    <i class="far fa-envelope-open"></i>
+                  </span>
+                  <div class="drawer-items">Drafts</div>
+                </div>
+              </li>
+            </ul>
+          </aside>
+
+        </div>
+        <iframe class="iframe-display"
+          src="https://carbon.now.sh/embed?bg=rgba%28254%2C254%2C254%2C1%29&t=duotone-dark&wt=none&l=css&width=1262&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522menu%2520hover-item%2522%253E%250A%2509%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522menu-title%2522%253EMenu%253C%252Fa%253E%250A%2509%253Cul%2520class%253D%2522dropdown-menu%2520hover-item%2522%253E%250A%2509%2509%253Cli%2520class%253D%2522submenu-item%2522%253EConcert%2520Tickets%2520%250A%2509%2509%2509%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-arrow-right%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253C%252Fspan%253E%250A%2509%2509%253C%252Fli%253E%250A%2509%2509%253Cul%2520class%253D%2522submenu%2522%253E%250A%2509%2509%2509%253Cli%2520class%253D%2522hover-item%2522%253EFearless%253C%252Fli%253E%250A%2509%2509%2509%253Cli%2520class%253D%2522hover-item%2522%253ERed%253C%252Fli%253E%250A%2509%2509%2509%253Cli%2520class%253D%2522hover-item%2522%253E%2520Reputation%253C%252Fli%253E%250A%2509%2509%253C%252Ful%253E%250A%2509%2509%253Cli%253EAlbums%253C%252Fli%253E%250A%2509%2509%253Cli%253EAccessories%253C%252Fli%253E%250A%2509%253C%252Ful%253E%250A%253C%252Fdiv%253E"
           sandbox="allow-scripts allow-same-origin">
         </iframe>
       </section>
