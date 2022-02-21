@@ -40,10 +40,15 @@
 - [Badge](https://redazzleui.netlify.app/docs/site.html#badge)
 - [Button](https://redazzleui.netlify.app/docs/site.html#button)
 - [Card](https://redazzleui.netlify.app/docs/site.html#card)
+- [Grid](https://redazzleui.netlify.app/docs/site.html#grid)
 - [Image](https://redazzleui.netlify.app/docs/site.html#image)
 - [Input](https://redazzleui.netlify.app/docs/site.html#input)
 - [List](https://redazzleui.netlify.app/docs/site.html#list)
+- [Modal](https://redazzleui.netlify.app/docs/site.html#modal)
+- [Navigation | Hamburger | Submenu](https://redazzleui.netlify.app/docs/site.html#navigation)
 - [Rating](https://redazzleui.netlify.app/docs/site.html#rating)
+- [Slider](https://redazzleui.netlify.app/docs/site.html#slider)
+- [Toast](https://redazzleui.netlify.app/docs/site.html#toast)
 - [Utility](https://redazzleui.netlify.app/docs/site.html#utility)
 
 ---

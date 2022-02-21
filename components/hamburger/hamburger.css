@@ -17,9 +17,19 @@
   width: 20rem;
   border: 1px solid var(--secondary-color);
   padding: var(--sm-size);
+  color: var(--secondary-color);
 }
 .nav-relative {
   top: 0;
   z-index: 4;
   background-color: var(--primary-color);
+}
+.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--xs-size);
+  font: var(--sm-size) var(--body-font);
+  margin-left: var(--sm-size);
+  color: var(--secondary-color);
 }
