@@ -214,6 +214,8 @@ h5 {
 .cta-install:hover {
   background-color: var(--hover);
   color: var(--primary-color);
+  transition-delay: 2s;
+  transition: background-color 2s ease;
 }
 .title {
   color: var(--accent1);
@@ -225,6 +227,8 @@ h5 {
 .icon:hover,
 .doc-link:hover {
   color: var(--hover);
+  transition-delay: 2s;
+  transition: color 1s ease-in-out;
 }
 .iframe-display {
   border: 0;
